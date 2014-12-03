@@ -1,3 +1,6 @@
+# 1) Download file if not found
+# 2) Add a variable that combines Date and Time to the data and save it as "power.rds"
+
 if (!file.exists("power.rds")) {
      # Download and unzip file
      if (!file.exists('household_power_consumption.txt')) {
